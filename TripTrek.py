@@ -4,10 +4,10 @@ import os
 import google.generativeai as genai
 from PIL import Image, ImageTk
 
+#Reference taken from Google Documentation
 #Set API key
 genai.configure(api_key="YOUR_API_KEY")
 
-#Reference taken from Google Documentation
 #Create Gemini ai model
 generation_config = {
   "temperature": 1,
